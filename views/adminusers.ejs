@@ -1,0 +1,51 @@
+<% layout('layout') -%>
+<% script('js/adminusers.js') -%>
+
+<div class="row mt-5">
+  <div class="col-lg-12">
+    <div id="notification"></div>
+    <h5 class="text-center text-dark display-4">Usuarios del sitio <button type="button" id="btnReload" class="btn btn-primary" title="Recargar usuarios"><i class='fas fa-undo'></i></button></h5>
+    <table class="table table-striped">
+      <thead>
+        <tr class="bg-primary text-light">
+          <th>ID de usuario</th>
+          <th>Nombre de usuario</th>
+          <th>Correo electrónico</th>
+          <th>Tipo de usuario</th>
+          <th>Acciones</th>
+        </tr>
+      </thead>
+      <tbody id="usuarios">
+      </tbody>
+    </table>
+  </div>
+</div>
+
+<div class="modal fade" id="deleteAccount">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      
+      <!-- Modal Header -->
+      <div class="modal-header">
+        <h4 class="modal-title">Eliminar Cuenta de Usuario</h4>
+        <button type="button" class="close" data-dismiss="modal">&times;</button>
+      </div>
+      
+      <!-- Modal body -->
+      <div class="modal-body">
+        Esta a punto de eliminar la cuenta del usuario: #nombreUsuario, ¿está seguro que quiere hacerlo?
+      </div>
+      
+      <!-- Modal footer -->
+      <div class="modal-footer d-flex justify-content-center">
+        <button type="button" class="btn btn-outline-primary" data-dismiss="modal">Atrás</button>
+        <form id="formDeleteAccount">
+          <input type="hidden" id="idAccount" name="eliminarcuenta">
+          <button type="submit" class="btn btn-outline-danger">Eliminar cuenta</button>
+        </form>
+      </div>
+      
+    </div>
+  </div>
+</div>
+

@@ -1,0 +1,43 @@
+<% layout('layout') -%>
+<% script('js/createproject.js') -%>
+
+<div class="container p-3 mt-3 mb-3 bg-light border rounded">
+    <h1 class="display-4 text-center">Crear proyecto</h1>
+    <p class="font-weight-light">Ya eres un usuario desarrollador. Desde aquí puedes empezar a introducir los elementos básicos de tu videojuego. El nombre, una breve descripción, las etiquetas de este y el logo de tu juego o empresa. No te preocupes si te equivocas en algo, una vez hayas creado el proyecto podrás editarlo y añadir muchas más cosas.</p>
+    <p>Si tienes alguna duda visita nuestro <a href="/info">FAQ</a>.</p>
+</div>
+
+<div class="container-fluid">
+    <div class="container">
+        <form id="formCreateProject" enctype="multipart/form-data">
+            <div class="form-group">
+                <input type="text" class="form-control" id="title" placeholder="Título del proyecto" name="title" required>
+            </div>
+            <div class="form-group">
+                <textarea class="form-control" rows="5" id="description" name="description" placeholder="Descripción del proyecto" required></textarea>
+            </div>
+            <div class="form-group">
+                <input type="text" class="form-control" id="tags" placeholder="Etiquetas. Ejemplo:(rpg,shooter,survival)" name="tags" required>
+            </div>
+            <div class="form-group">
+                <label for="file">Logo del proyecto:</label>
+                <input type="file" id="image" class="form-control-file border" name="file" required>
+            </div>
+            <div class="form-group">
+                <button type="submit" class="btn btn-primary">Crear proyecto</button>
+            </form>
+        </div>
+    </div>
+    
+    <div id="notification" class="container"></div>
+    
+    <h5 class="display-4 text-center">Una pequeña ayuda...</h5>
+    <div class="container-fluid mb-3">
+        <ul class="list-group">
+            <li class="list-group-item list-group-item-info"><strong>Título: </strong>El título o nombre de tu proyecto debería ser el nombre original del videojuego que tú solo o con tu equipo estáis trabajando. Esto además de ayudar a transmitir mejor las noticias a tus jugadores, hará más fácil buscarlo en otras plataformas, una vez des el salto, o si ya se encuentra en alguna de ellas.</li>
+            <li class="list-group-item list-group-item-info"><strong>Descripción: </strong>La descripción del proyecto es donde debes explicar de manera general de qué trata tu videojuego. Características como que tipo de juego es, la historia que hay detrás (si tiene), que tipo de modalidades hay, etc... Más adelante podrás especificar más detalles en otros apartados. </li>
+            <li class="list-group-item list-group-item-info"><strong>Etiquetas: </strong>Las etiquetas son una parte muy importante a la hora de buscar el tipo de juego que le interesa a los jugadores. Por ejemplo, si tu juego es un videojuego de plataformas donde el jugador puede caer y este explota en diminutos cachitos de carne y lo mancha todo, deberías añadir al menos las etiquetas: plataformas y gore a tu proyecto. Las etiquetas se añaden separadas por comas. Ejemplo: (plataforma,gore,indie,aventuras,2D).</li>
+            <li class="list-group-item list-group-item-info"><strong>Logo: </strong>El logo del proyecto es la primera imagen que verán tus jugadores. Será la manera que desarrollarán para identificar el juego y ayudará a crear una personalidad única en el. Aconsejamos que el logo del proyecto sea el mismo que en otras plataformas, si es el caso, para que la comunidad pueda identificarlo mejor.</li>
+        </ul>
+    </div>
+</div>

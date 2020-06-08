@@ -1,0 +1,43 @@
+<% layout('layout') -%>
+<% script('js/createfeedback.js') -%>
+
+<div class="container p-3 mt-3 mb-3 bg-light border rounded">
+    <h1 class="display-4 text-center">Crear comentario u opinión</h1>
+    <p class="font-weight-light">Los comentarios u opiniones son una de las mejores herramientas que nos permiten a nosotros, los jugadores, estar en contacto directo con los desarrolladores de nuestro pasatiempo favorito. Utiliza esta sección del proyecto para ayudar a la pequeña comunidad que se va creando poco a poco. Da tu opinoón o consejo a los desarrolladores del videojuego y recibe una respuesta de ellos.</p>
+    <p>Si aún tienes dudas de cómo debes ponerte en contacto con los desarrolladores creando una comentario u opinión, puedes visitar nuestro <a href="/info">FAQ</a>.</p>
+</div>
+
+<div class="alert alert-danger container font-weight-bold">Desde Naevus te damos las herramientas que necesitas para estar más cerca del desarrollo y creación de tu videojuego favorito. Usted es totalmente responsable de lo que se publica desde su cuenta. Si incumple las normas de la comunidad, su cuenta puede llegar a ser eliminada.</div>
+
+<div class="container-fluid">
+    <div class="container">
+        <form id="createFeedback" enctype="multipart/form-data">
+            <div class="form-group">
+                <input type="text" class="form-control" id="title" placeholder="Título del comentario u opinión" name="title" required>
+            </div>
+            <div class="form-group">
+                <textarea class="form-control" rows="10" id="text" name="text" placeholder="Descripción del comentario u opinión" required></textarea>
+            </div>
+            <div class="form-group">
+                <label for="file">Puedes añadir una imagen si lo deseas:</label>
+                <br>
+                <input type="file" name="file">
+            </div>
+            <div class="form-group">
+                <button type="submit" class="btn btn-primary">Crear comentario u opinión</button>
+            </form>
+        </div>
+    </div>
+
+    <div id="notification" class="container"></div>
+    
+    <h5 class="display-4 text-center">Una pequeña ayuda...</h5>
+    <div class="container-fluid mb-3">
+        <ul class="list-group">
+            <li class="list-group-item list-group-item-info"><strong>Título: </strong>Escribe aquí un título describiendo lo que te ha parecido el juego, o si has encontrado un problema o tienes una sugerencia, escribe también un títlo al respecto. Si el título es claro y fácil de comprender los desarrolladores y otros usuarios lo tendrán más fácil a la hora de entender tu problema o leer tu opinión.</li>
+            <li class="list-group-item list-group-item-info"><strong>Descripción: </strong>Escribe aquí el problema, opinión o comentario al completo. Todos los detalles cuentan, sobre todo si se trata de un problema que has encontrado mientras juegas.</li>
+            <li class="list-group-item list-group-item-info"><strong>Imagen: </strong>La imágen puede ser de gran ayuda, sobre todo a la hora de descripbir un "bug" o problema encontrado mientras juegas. Aunque la imagen puede ser cualquier cosa que tu quieras, debe de tener sentido con respecto al resto de tu comentario.</li>
+            <li class="list-group-item list-group-item-info"><strong>* </strong>Los usuario desarrolladores del proyecto podrán ver lo que has escrito y cambiar el estado de tu post, indicando que les ha parecido.<br>No te preocupes si te equivocas, los comentarios u opiniones pueden ser editados más adelante. Si no has añadido una imagen, se insertará una por defecto. Debes tener en cuenta que la imagen <strong>no se puede cambiar o eliminar</strong>. Si la imagen no te gusta o te has equivocado, siempre puedes copiar el texto, eliminar la el post y crear uno nuevo.<br>Los usuarios registados en el sitio podrán comentar dentro de tu post y decir que les parece. Si crees que un comentario no es apropiado, puedes pulsar el botón rojo de "Reportar abuso". En breve un usuario administrador arreglará el problema.</li>
+        </ul>
+    </div>
+</div>

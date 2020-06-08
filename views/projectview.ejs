@@ -1,0 +1,78 @@
+<% layout('layout') -%>
+<% script ('js/projectview.js') -%>
+<% stylesheet ('css/projectview.css') -%>
+
+<div id="projectCarousel" class="carousel slide" data-ride="carousel">
+    <ol id="carouselList" class="carousel-indicators"></ol>
+    
+    <div id="carouselImages" class="carousel-inner"></div>
+
+    <a class="carousel-control-prev" href="#projectCarousel" role="button" data-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="sr-only">Anterior</span>
+    </a>
+    <a class="carousel-control-next" href="#projectCarousel" role="button" data-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="sr-only">Siguiente</span>
+    </a>
+</div>
+
+<nav class="navbar navbar-expand-sm bg-light navbar-light">
+    <a id="projectName" class="navbar-brand">Nombre del proyecto</a>
+    <ul class="navbar-nav">
+        <li class="nav-item">
+            <a id="updates" class="nav-link" href="/updates">Noticias & eventos</a>
+        </li>
+        <li class="nav-item">
+            <a id="feedback" class="nav-link" href="/feedbacks">Comentarios & opiniones</a>
+        </li>
+        <li class="nav-item">
+            <a id="outside" class="nav-link" href="/outside">Enlaces externos</a>
+        </li>
+    </ul>
+</nav> 
+<div id="notification"></div>  
+
+<div class="jumbotron jumbotron-fluid">
+    <div class="container">
+        <h1 id="title" class="text-center"><button type="button" class="btn btn-warning" title="Editar título"><i class="fas fa-pencil-alt"></i> </button></h1>      
+        <p id="description"><button type="button" class="btn btn-warning" title="Editar descripción"><i class="fas fa-pencil-alt"></i></button> </p>
+    </div>
+    <div id="tags" class="container text-center"></div> 
+</div>
+
+<section class="container-fluid">
+    <h2 class="display-4 text-center mt-5 mb-3">Acerca de este proyecto</h2>
+    <div class="row text-center">
+        <div class="col-md-4 mb-4">
+            <div class="card h-100">
+                <img id="imgDesc1" class="card-img-top" src="./images/axe.jpg" alt="Design">
+                <div class="card-body">
+                    <p id="resume1" class="card-text">Descripcion</p>
+                </div>
+            </div>
+        </div>
+        
+        <div class="col-md-4 mb-4">
+            <div class="card h-100">
+                <img id="imgDesc2" class="card-img-top" src="./images/axe.jpg" alt="Development">
+                <div class="card-body">
+                    <p id="resume2" class="card-text">Descripcion</p>
+                </div>
+            </div>
+        </div>
+        
+        <div class="col-md-4 mb-4">
+            <div class="card h-100">
+                <img id="imgDesc3" class="card-img-top" src="./images/axe.jpg" alt="Analytics">
+                <div class="card-body">
+                    <p id="resume3" class="card-text">Descripcion</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section id="lastNews" class="container-fluid">
+    <h2 class="display-4 text-center mt-5 mb-3">Últimas noticias</h2>
+</section>

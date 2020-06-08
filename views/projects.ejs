@@ -1,0 +1,24 @@
+<% layout('layout') -%>
+<% script('js/projects.js') -%>
+
+<div class="py-5">
+    <div class="col-lg-9 mx-auto text-dark text-center">
+        <h1 class="display-4">Descubre grandes aventuras</h1>
+        <p class="lead mb-0">Piérdete en este laberinto de juegos.</p><p> Busca por un nombre conocido o por los estilos de juego que más te gustan.</p>
+        <form id="searchProject">
+            <div class="p-1 bg-light rounded rounded-pill shadow-sm mb-4">
+                <div class="input-group">
+                    <input id="searchItem" type="search" placeholder="Nombre o etiqueta que quieres buscar." aria-describedby="button-addon1" class="form-control border-0 bg-light" name="searchItem">
+                    <div class="input-group-append">
+                        <button type="submit" class="btn btn-link text-primary"><i class="fa fa-search"></i></button>
+                    </div>
+                </div>
+            </div>
+        </form>
+        <div id="notification"></div>
+    </div>
+</div>
+<hr>
+<section class="pt-3 container-fluid">
+    <div id="projects" class="row text-center"></div>
+</section>

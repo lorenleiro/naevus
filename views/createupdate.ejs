@@ -1,0 +1,38 @@
+<% layout('layout') -%>
+<% script('js/createupdate.js') -%>
+
+<div class="container p-3 mt-3 mb-3 bg-light border rounded">
+    <h1 class="display-4 text-center">Crear noticia</h1>
+    <p class="font-weight-light">Las noticias son una manera de acercarse al público objetivo de tu proyecto. Puedes crear todas las noticias que quieras para este. Aquí deberías publicar las últimas actualizaciones del videojuego, los cambios hechos en el, futuros parches, etc... Incluso si tu equipo se empieza a quedar algo pequeño puedes publicar noticias relevantes como "Se busca programador senior" o si vas a asistir a algún evento donde los jugadores pueden conocerte a ti solo o a tu equipo en persona, este apartado "Noticias & eventos" del proyecto es una gran forma de hacerselo saber. No todo tiene que estar relacionado al cien por cien con el proyecto, también puede tener algo que ver el trabajo interno dentro de tu pequeño grupo o de tu propia gestión.</p>
+    <p>Desde Naevus creemos que la transparencia con nuestros usuarios es la mejor manera de crecer. Si no te ha quedado claro como debes crear las noticias de tu proyecto, puedes visitar nuestro <a href="/info">FAQ</a>.</p>
+</div>
+
+<div class="container-fluid">
+    <div class="container">
+        <form id="createUpdate" enctype="multipart/form-data">
+            <div class="form-group">
+                <input type="text" class="form-control" id="title" placeholder="Título de la noticia o evento" name="title" required>
+            </div>
+            <div class="form-group">
+                <textarea class="form-control" rows="10" id="text" name="text" placeholder="Descripción de la noticia o evento" required></textarea>
+            </div>
+            <div class="form-group">
+                <label for="file">Puedes añadir también una imagen si lo deseas: </label><br>
+                <input type="file" name="file">
+            </div>
+            <div class="form-group">
+                <button type="submit" class="btn btn-primary">Crear noticia o evento</button>
+            </form>
+        </div>
+    </div>
+    
+    <h5 class="display-4 text-center">Una pequeña ayuda...</h5>
+    <div class="container-fluid mb-3">
+        <ul class="list-group">
+            <li class="list-group-item list-group-item-info"><strong>Título: </strong>Escribe aquí un título describiendo lo que se va a hablar a continuación. Un título claro y directo llamará la atención de los lectores.</li>
+            <li class="list-group-item list-group-item-info"><strong>Descripción: </strong>Aquí debes contar de que se trata todo. Si es una nueva actualización que acaba salir, quizás sea de interés el nuevo contenido que trae esta o los cambios o arreglos realizados. </li>
+            <li class="list-group-item list-group-item-info"><strong>Imagen: </strong>Las imágenes ayudan a entender todo lo que se explica en la descripción. Puedes escoger la imágen que quieras. Si no seleccionas ninguna, se añadirá una imagen por defecto.</li>
+            <li class="list-group-item list-group-item-info"><strong>* </strong>No te preocupes si te equivocas, las noticias pueden ser editadas más adelante, aunque debes tener en cuenta que la imagen de la noticia <strong>no se puede cambiar</strong>. Si la imagen no te gusta o te has equivocado, siempre puedes copiar el texto, eliminar la noticia y crear una nueva.<br>Los usuarios registados en el sitio podrán comentar dentro de la noticia y decir que les parece. Si crees que un comentario no es apropiado, puedes eliminarlo tu mismo sin tener que contactar con nosotros. ¡Dentro de tu proyecto tú eres el jefe!</li>
+        </ul>
+    </div>
+</div>

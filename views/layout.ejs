@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+    <meta name="description" content="Naevus." />
+    <meta name="author" content="Lorenzo Torres Rodríguez" />
+    
+    <title><%=title%></title>
+    
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link rel='stylesheet' href='css/defaultStyles.css' />
+    <%-stylesheets%>
+    
+</head>
+<body id="body">
+    
+    <%- include menu %>
+    <main>
+        <%-body %>
+    </main>
+    
+    <%- include footer %>
+    
+    <script src="js/jquery.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/collapse.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/js/all.min.js" crossorigin="anonymous"></script>
+    <%-scripts%>
+</body>
+</html>

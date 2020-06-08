@@ -1,0 +1,119 @@
+<% layout('layout') -%>
+<% script('js/account.js') -%>
+
+<div class="alert alert-info" role="alert">
+    <h4 id="title" class="alert-heading">Tu cuenta,  </h4>
+    Edita, cambia o borra tus datos y tu imagen personal.
+</div>
+
+<div class="modal fade" id="deleteAccount">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            
+            <!-- Modal Header -->
+            <div class="modal-header">
+                <h4 class="modal-title">Eliminar cuenta</h4>
+                <button type="button" class="close" data-dismiss="modal">&times;</button>
+            </div>
+            
+            <!-- Modal body -->
+            <div class="modal-body">
+                Estás a punto de eliminar tu cuenta <strong>permanentemente </strong>. Esta acción eliminará todos tus comentarios y feedbacks, así como todos los proyectos que tengas si eres un usuario desarrollador.<br><strong>Esta acción no se puede deshacer</strong>.<br><br> ¿Está seguro que quiere continuar?
+            </div>
+            
+            <!-- Modal footer -->
+            <div class="modal-footer d-flex justify-content-center">
+                <button type="button" class="btn btn-outline-primary" data-dismiss="modal">Atrás</button>
+                <form id="formDeleteProject">
+                    <input type="hidden" name="eliminarcuenta">
+                    <button id="removeAccount" type="submit" class="btn btn-outline-danger">Eliminar cuenta</button>
+                </form>
+            </div>
+            
+        </div>
+    </div>
+</div>
+
+<div class="row p-3">
+    <div class="col-sm-8 border rounded-lg">
+        
+        <form id="formPersonalData" class="m-3">
+            <div class="form-group row">
+                <label for="username" class="col-sm-2 col-form-label">Nombre de usuario</label>
+                <div class="col-sm-8">
+                    <input type="text" class="form-control" id="username" disabled>
+                </div>
+            </div>
+            
+            <div class="form-group row">
+                <label for="email" class="col-sm-2 col-form-label">Correo electrónico</label>
+                <div class="col-sm-8">
+                    <input type="email" class="form-control" id="email" disabled>
+                </div>
+            </div>
+            
+            <div class="form-group row">
+                <label for="user" class="col-sm-2 col-form-label">Tipo de usuario</label>
+                <div id="user" class="col-sm-8">
+                    <input name="user" type="text" class="form-control" disabled>
+                </div>
+                <div id="userTypeNormal" class="col-sm-2 custom-control custom-radio">
+                    <input type="radio" id="normalUser" name="userType" class="custom-control-input" value="user">
+                    <label class="custom-control-label" for="normalUser">Usuario normal</label>
+                </div>
+                <div id="userTypeDev" class="col-sm-2 custom-control custom-radio">
+                    <input type="radio" id="devUser" name="userType" class="custom-control-input" value="dev">
+                    <label class="custom-control-label" for="devUser">Usuario desarrollador</label>
+                </div>
+            </div>
+
+            <div id="currentPasswordDiv" class="form-group row">
+                <label for="currentPassword" class="col-sm-2 col-form-label">Contraseña actual</label>
+                <div class="col-sm-4">
+                    <input id="currentPassword" type="password" class="form-control" placeholder="Tu contraseña actual">
+                </div>
+            </div>
+
+            <div id="newPasswordDiv" class="form-group row">
+                <label for="newPassword" class="col-sm-2 col-form-label">Nueva contraseña</label>
+                <div class="col-sm-4">
+                    <input id="newPassword" type="password" class="form-control" placeholder="Tu nueva contraseña">
+                </div>
+                <div class="col-sm-4">
+                    <input id="newPasswordRepeated" type="password" class="form-control" placeholder="Repite tu nueva contraseña">
+                </div>
+            </div>
+            
+            <div class="form-group row">
+                <label for="actions" class="col-sm-2 col-form-label">Acciones</label>
+                <div id="actions" class="col-sm-8">
+                    <button id="passwordButton" type="button" class="btn btn-outline-primary">Cambiar contraseña</button>
+                    <button id="editButton" type="button" class="btn btn-outline-warning" title="Edita tu nombre, correo y contraseña">Editar cuenta</button>
+                    <button id="deleteButton" type="button" class="btn btn-outline-danger" data-toggle="modal" data-target="#deleteAccount" title="Elimina tu cuenta permanentemente">Borrar cuenta</button>
+                    <button id="saveButton" type="button" class="btn btn-outline-success" title="Guarda todos los cambios hechos">Guardar</button>
+                    <button id="changuePassword" type="button" class="btn btn-outline-success" title="Cambia su contraseña">Cambiar contraseña</button>
+                    <button id="cancelButton" type="button" class="btn btn-outline-danger" title="Cancela la edición de tu cuenta">Cancelar</button>
+                </div>
+            </div>
+        </form>
+        
+    </div>
+    <div class="col-sm-6" style="max-width: 300px">
+        <div class="card p-3">
+            <img id="image" class="card-img-top img-fluid" src="./images/default_avatar.jpg" alt="Imagen personal">
+            <div class="card-body">Imagen personal</div>
+            <form id="changuePersonalPhoto" enctype="multipart/form-data">
+                <input id="personalPhoto" type="file" name="file">
+                <input type="submit" class="btn btn-outline-success" value="Cambiar imagen" disabled>
+            </form>
+        </div>
+    </div>
+</div>
+<div class="row container m-3">
+    <div class="col-sm-12">
+        <div id="notification">
+        </div>
+    </div>
+</div>
+
+

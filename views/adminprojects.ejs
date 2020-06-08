@@ -1,0 +1,22 @@
+<% layout('layout') -%>
+<% script('js/adminprojects.js') -%>
+
+<div class="row mt-5">
+  <div class="col-lg-12">
+    <div id="notification"></div>
+    <h5 class="text-center text-dark display-4">Todos los proyectos <button type="button" id="btnReload" class="btn btn-primary" title="Recargar proyectos"><i class='fas fa-undo'></i></button></h5>
+    <table class="table table-striped">
+      <thead>
+        <tr class="bg-primary text-light">
+          <th>ID</th>
+          <th>Título</th>
+          <th>Descripción</th>
+          <th>Tags</th>
+          <th>Acciones</th>
+        </tr>
+      </thead>
+      <tbody id="projects">
+      </tbody>
+    </table>
+  </div>
+</div>

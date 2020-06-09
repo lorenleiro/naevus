@@ -1,7 +1,8 @@
 # Diseño
 
 ## Modelo conceptual del dominio de la aplicación
-Pode ser un diagrama de clases usando UML, ConML, ou outra linguaxe semellante.
+Diagrama UML de la aplicaciónç
+![Diagrama UML de Naevus](../img/uml.PNG)
 
 ## Diseño de la interfaz de usuarios
 *Vista de la página de inicio del sitio*
@@ -24,5 +25,5 @@ Pode ser un diagrama de clases usando UML, ConML, ou outra linguaxe semellante.
 ![Enlaces externos del proyecto](../img/enlaces.PNG)
 
 
-## Diagrama de Base de Datos.
+## Diagrama de Base de Datos
 ![Modelo relacional](../img/modelo_relacional.PNG)

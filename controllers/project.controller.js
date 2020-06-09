@@ -140,8 +140,7 @@ exports.project_delete = async function(req,res)
 * @returns los datos del proyecto (200) || Error, no existe el proyecto (404).
 */
 exports.project_editproject_post = async function(req,res)
-{
-    
+{ 
     let conn = await pool.getConnection();
     let projectID = req.session.client.currentProject;
     let projectinfo = {};

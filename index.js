@@ -1,15 +1,10 @@
-// Paquete que permite trabajarcon servidor web, rutas, etc...
 const express = require('express');
-// Variables de sesión para el servidor
 const session = require('express-session');
 const cookieParser = require('cookie-parser');
-// Carga del módulo http
 const http = require('http');
 const https = require('https');
-// Carga del módulo para trabajar con el fichero de entorno
 const dotenv = require('dotenv').config();
 const ejs = require('ejs');
-// Carga del motor de platillas EJS
 const engine = require('ejs-blocks');
 const app = express();
 const path = require('path');

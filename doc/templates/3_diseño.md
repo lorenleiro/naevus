@@ -7,4 +7,4 @@ Pode ser un diagrama de clases usando UML, ConML, ou outra linguaxe semellante.
 
 
 ## Diagrama de Base de Datos.
-![Modelo relacional](../img/modelo_relacional.png)
+![Modelo relacional](../img/modelo_relacional.PNG)

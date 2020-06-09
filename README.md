@@ -1,11 +1,11 @@
 # Naevus. Un lugar donde compartir.
 
-Naevus es una aplicación web diseñada para todos aquellos desarrolladores o grupos de desarrolladores independientes de videojuegos. En ella, no solo podrán compartir su trabajo con la comunidad de jugadores, también podrán tener un contacto directo con ella, pudiendo incluso recibir comentarios y opiniones desde las fases más tempranas del desarrollo de su vieojuego.
+Naevus es una aplicación web diseñada para todos aquellos desarrolladores o grupos de desarrolladores independientes de videojuegos. En ella, no solo podrán compartir su trabajo con la comunidad de jugadores, también podrán tener un contacto directo con ella, pudiendo incluso recibir comentarios y opiniones desde las fases más tempranas del desarrollo de su videojuego.
 
 Naevus hace visibles de una manera sencilla y gratuita a aquellos desarrolladores que no cuentan con los medios necesarios para mostrar a su público objetivo el desarrollo de su proyecto.
 
 ## Descripción
-Esta es la documentación del proyecto. En ella se explicará, paso por paso, todos los puntos que lo comprenden, así como las etapas por las que ha pasado, su instalación, su análisis, su diseño y el desarrollo de esta.
+Esta es la documentación del proyecto. En ella se explicará, paso por paso, todos los puntos que lo comprenden, así como las distintas etapas de su desarrollo, su instalación, su análisis, su diseño y el desarrollo de esta.
 
 ## Instalación
 La instalación y puesta a punto del proyecto comprende varios apartados. Para más información sobre la instalación del proyecto, véase: [Instalación y puesta a punto](doc/templates/5_manuales.md).
@@ -15,6 +15,10 @@ Naevus cuenta con una interfáz gráfica limpia y sencilla de utilizar. Los usua
 
 ## Sobre el autor
 Estudiante de desarrollo de aplicaciones web y además, técnico en sistemas microinformáticos y redes. Apasionado desde pequeño por la informática, con ganas de seguir mejorando, sin detenerme.
+
+Si estás interesado en algo, estaré encantado de atenderte:
+a17lorenzotr@iessanclemente.net
+lorenleiro@gmail.com
 
 Naevus es uno de los primeros grandes pasos. No el último.
 

@@ -55,7 +55,7 @@ Es cierto que cada vez existen más posibilidades de dar a luz lo que los desarr
 alto de las ganacias de estes, por poner a la venta su videojuego en su página.
 
 Dentro de este contexto podemos detectar distintas deficiencias que se intentarán resolver o disminuir con este prototipo:
-- Sufiecientes páginas para publicar los videojuegos, pero pocas que permitan el tacto directo con los usuarios finales como lo hace este proyecto.
+- Suficientes páginas para publicar los videojuegos, pero pocas que permitan el tacto directo con los usuarios finales como lo hace este proyecto.
 - La mayoría de ellas quitan un porcentaje de las ventas de los juegos. En esta aplicaci´n eso no ocurre, hay otros métodos de pago más eficiente y opcionales.
 - Necesidad de un canal directo con el usuario final.
 - Complejidad a la hora de utilizar todas las herramientas de una web. Desde Naevus el sistemas de funcionalidades está totalmente centralizado.
@@ -92,13 +92,10 @@ Dentro de este contexto podemos detectar distintas deficiencias que se intentar�
 Recurso: [Guía para a elaboración de proyectos. Gobierno Vasco.](https://www.pluralismoyconvivencia.es/upload/19/71/guia_elaboracion_proyectos_c.pdf) (páxina 26 e seguintes)
 
 ## 6. Modelo de negocio 
-¿O desenvolvemento da aplicación abre unha oportunidade de negocio? ¿É posible comercializala? ¿Cómo?
 No existen muchas páginas web en internet que den un acceso tan directo a los desarrolladores con su comunidad. Es por eso que se creó Nevus, abriendo  numerosas posibilidades
 a la hora de la comunicación con el usuario final del producto.
 
-Naevus es una aplicación gratuita y de uso libre, de esta forma se pretende que todas aquellas personas que necesitan de las funcionalidades que ofrece la aplicación
-estén disponibles de manera inmediata y fácil. Aún así, existen diferentes posibilidades a la hora de comercializar la aplicación, sobre todo para aquellas pequeñas
-empresas que se lo puedan permitir o ncesiten un impulso a la hora de publicitar su videojuego. Algunas de estas dson las siguientes:
+Naevus es una aplicación gratuita y de uso libre, de esta forma se pretende que todas aquellas personas que necesitan de las funcionalidades que ofrece la aplicación estén disponibles de manera inmediata y fácil. Aún así, existen diferentes posibilidades a la hora de comercializar la aplicación, sobre todo para aquellas pequeñas empresas que se lo puedan permitir o necesiten un impulso a la hora de publicitar su videojuego. Algunas de estas son las siguientes:
 - Ofrecer un mejor sistema de administración del proyecto. (Como el que cuenta por defecto la cuenta de administrador).
 - Publicar el proyecto en la página principal del sitio, para tener una mayor visiblidad.
 - Ofrecer mejores herramientas o vistas para gestionar el proyecto.
@@ -107,17 +104,12 @@ empresas que se lo puedan permitir o ncesiten un impulso a la hora de publicitar
 ### 6.1. Viabilidad
 
 #### 6.1.1. Viabilidad técnica
-- Será posible dispoñer dos recursos humanos e medios de produción necesarios (materias primas, maquinaria, instalacións, etc.)?
-- Existe algún impedimento técnico que dificulte o proceso produtivo? 
-
-El usuario desarrollador solo ha de disponer de una conexión a internet estable, y un ordenador donde programar y probar la aplicación. A la hora de puesta a producción, será
+El usuario desarrollador solo ha de disponer de una conexión a internet estable, y un ordenador desde el que programar y probar la aplicación. A la hora de puesta a producción, será
 necesario contratar un servicio en la nube para alojar el servidor.
 
 No existe ningún impedimento grave como para dificultar el proceso de creación de la aplicación.
 
-
 #### 6.1.2. Viabilidad económica
-
 - Gastos
     + Horas trabajadas + hogar: 1200€ / mensual
     + Gastos fijos: 150€ /mensual
@@ -127,23 +119,15 @@ No existe ningún impedimento grave como para dificultar el proceso de creación
     + Servidor en la nube: 20€ / mes
     + Software y licencias: licencia Apache 2.0, Visual Studio Code.
 
-- Os beneficios do proxecto son superiores aos costes?
-Los beneficios serán graduales desde que se ponga en producción la aplicación. Hasta que esta no tenga un número decente de usuarios registrados en ella, no será posible
-emezar a comercializarla.
-- As perdas poden cubrirse vía financiamento (por parte da administración pública, con subvencións, etc)?    
-A largo plazo, el proyecto dejará de tener pérdidas. Si es posible que se necesite pedir un crédito para sufragar los gastos iniciales y el mantenimiento hasta que la
-aplicación empieze a tener un flujo de usuarios constante y empieza a ser viable económicamente.
+Los beneficios serán graduales desde que se ponga en producción la aplicación. Hasta que esta no tenga un número decente de usuarios registrados en ella, no será posible empezar a comercializarla.
+  
+A largo plazo, el proyecto dejará de tener pérdidas. Aunque es posible que se necesite pedir un crédito para sufragar los gastos iniciales y el mantenimiento hasta que la aplicación empieze a tener un flujo de usuarios constante y comience a ser viable económicamente.
 
 ### 6.2. Competencia
-- Identificación da competencia, as súas características e a súa posición no mercado.
-- Existencia de productos/servizos substitutivos.
 
-La competencia directa se llama [Game Jolt](https://gamejolt.com/). Es una página web que permite publicitar y descargar los juegos indie desde el navegador. 
-Ocupa actualmente el primer puesto en este tipo de mercado.
+La competencia directa se llama [Game Jolt](https://gamejolt.com/). Es una página web que permite publicitar y descargar los juegos indie desde el navegador. Ocupa actualmente el primer puesto en este tipo de mercado.
 
-Además, existen otro tipo de plataformas com Steam, Epic Games, Humble Bundle, etc... que ofrecen carácterísticas similares. Identificamos este tipo de plataformas 
-como competencia indirecta, ya que nuestro principal objetivo no es ser una tienda de vieojuegos, pero al tener características parecidas como "Reviews", es probable
-que ocupen parcialmente nuestro mercado también.
+Además, existen otro tipo de plataformas com Steam, Epic Games, Humble Bundle, etc... que ofrecen características similares. Identificamos este tipo de plataformas como competencia indirecta, ya que nuestro principal objetivo no es ser una tienda de videojuegos, pero al tener características parecidas como que los usuairos pueden hacer "Reviews" o publicar su opinión, es probable que ocupen parcialmente nuestro mercado también.
 
 Recurso: [Modelo de plan de negocios. Empresa de servicios informáticos. IGAPE](http://www.igape.es/images/crear-unha-empresa/Recursos/PlansdeNegocio/16ServiciosInformaticos12_5_cas.pdf) (páxina 45 e seguintes)
 

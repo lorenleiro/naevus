@@ -1,40 +1,39 @@
-# Proxecto de fin de ciclo DAW
+# Naevus. Un lugar donde compartir.
 
-> *Tarefa*: Este documento será a páxina de inicio do teu proxecto. Será o primero que vexan os que se interesen por el. Coida a súa redacción e ortografía. Elimina todas as liñas "*Tarefa*" cando teñas a redacción de todo o proxecto completada.
-> Podes acompañar a redacción deste ficheiros con imaxes ou GIFs, pero non abuses deles. 
+Naevus es una aplicación web diseñada para todos aquellos desarrolladores o grupos de desarrolladores independientes de videojuegos. En ella, no solo podrán compartir su trabajo con la comunidad de jugadores, también podrán tener un contacto directo con ella, pudiendo incluso recibir comentarios y opiniones desde las fases más tempranas del desarrollo de su vieojuego.
 
+Naevus hace visibles de una manera sencilla y gratuita a aquellos desarrolladores que no cuentan con los medios necesarios para mostrar a su público objetivo el desarrollo de su proyecto.
 
-## Descrición
-> *Tarefa*: Realiza unha breve descrición do proxecto (entre 100 e 300 palabras). Resalta o fundamental **coas túas palabras**. Utiliza unha linguaxe correcta, pero natural, que o entenda todo o mundo, incluso e en especial, as persoas que non teñan un coñecemento técnico avanzado. Pode ser un estrato ou resumo dos apartados que se contemplan na memoria.
+## Descripción
+Esta es la documentación del proyecto. En ella se explicará, paso por paso, todos los puntos que lo comprenden, así como las etapas por las que ha pasado, su instalación, su análisis, su diseño y el desarrollo de esta.
 
 ## Instalación
-> *Tarefa*: Neste apartado describe con toda precisión e, a poder ser, coa maior simplicidade/facilidade posible, como poñer en marcha a túa aplicación para probala (nun entorno local). Valorarase moi positivamente que este proceso sexa o máis fácil posible, cunha simple instrución (por exemplo, un script de instalación).
+La instalación y puesta a punto del proyecto comprende varios apartados. Para más información sobre la instalación del proyecto, véase: [Instalación y puesta a punto](doc/templates/5_manuales.md).
 
 ## Uso
-> *Tarefa*: Neste apartado, describe brevemente como se usará o software. Se ten unha interfaz de terminal, describe aquí a súa sintaxe. Se ten unha interfaz gráfica de usuario, describe aquí **só o uso** (a modo de sumario) **dos aspectos máis relevantes do seu funcionamento** (máxima brevidade, como se fose un anuncio reclamo ou comercial).
+Naevus cuenta con una interfáz gráfica limpia y sencilla de utilizar. Los usuarios que visiten o se registren en el sitio poseen un "Menú personal", donde están centralizadas todas las operaciones que pueden realizar.
 
 ## Sobre el autor
-> *Tarefa*: Realiza unha breve descrición de quen es desde unha perspectiva profesional, os teus puntos fortes, tecnoloxías que máis dominas e o motivo de por que te decantaches por este proxecto. **Non máis de 200 palabras**. Indica unha forma fiable de contactar contigo no presente e no futuro.
+Estudiante de desarrollo de aplicaciones web y además, técnico en sistemas microinformáticos y redes. Apasionado desde pequeño por la informática, con ganas de seguir mejorando, sin detenerme.
+
+Naevus es uno de los primeros grandes pasos. No el último.
 
 ## Licencia
-> *Tarefa*: É requisito INDISPENSABLE licenciar explicitamente o proxecto. Crea un ficheiro `LICENSE` na raíz do repositorio.
+Naevus está bajo una licencia [Apache 2.0](http://apache.org/licenses/LICENSE-2.0.html).
+
+Copyright (C) 2020 Lorenzo Torres Rodríguez.
 
 ## Guía de contribución
-> *Tarefa*: Se o teu proxecto se trata de software libre, é importante que expoñas como se pode contribuir a el. Algúns exemplos disto son realizar novas funcionalidades, corrección e/ou optimización de código, realización de tests automatizados, novas interfaces de integración, desenvolvemento de plugins, etc. Intenta dar unha mensaxe concisa.
-
+Actualmente, Naevus no admite ningún tipo de contribución. Esto está sujeto a cambios con el tiempo.
 
 ## Memoria
-
-> *Tarefa*: Indexa de forma ordenada a memoria do teu proxecto.
-> Durante a redacción da memoria, debes ir completando progresivamente o anexo de Referencias.
-
-1. [Estudo preliminar](doc/templates/1_estudo_preliminar.md)
-2. [Análise: Requerimentos do sistema](doc/templates/2_analise.md)
-3. [Deseño](doc/templates/3_deseno.md)
-4. [Codificación e Probas](doc/templates/4_codificacion_probas.md)
-5. [Manuais](doc/templates/5_manuais.md)
+1. [Estudio preliminar](doc/templates/1_estudio_preliminar.md)
+2. [Análisis: Requisitos del sistema](doc/templates/2_analisis.md)
+3. [Diseño](doc/templates/3_diseño.md)
+4. [Codificación y Pruebas](doc/templates/4_codificacion_pruebas.md)
+5. [Manuales](doc/templates/5_manuales.md)
 
 #### Anexos
 1. [Referencias](doc/templates/a1_referencias.md)
 1. [Planificación](doc/templates/a2_planificacion.md)
-2. [Orzamento](doc/templates/a3_orzamento.md)
+2. [Presupuesto](doc/templates/a3_presupuesto.md)

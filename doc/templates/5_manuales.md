@@ -19,7 +19,7 @@ Para instalar correctamente la aplicación, sigue estos sencillos pasos:
 - Copiar el repositorio y pegarlo en tu carpeta web.
 - Instalar las dependencias con `npm install`.
     + Si tu sistema no cuenta con npm de serie, puedes instalarlo con `sudo apt-get install npm`.
-- Arrancar el servidor con `nodemon index.js`. Se debería mostrar por consola en qué puerto e stá escuchando el servidor.
+- Arrancar el servidor con `nodemon index.js`. Se debería mostrar por consola en qué puerto está escuchando el servidor.
 
 ### Administración del sistema
 
@@ -30,7 +30,7 @@ Algunas tareas que serán habituales y necesarias son las siguientes:
 
 ### Mantenimiento del sistema
 
-Las principales tareas de man tenimiento a realizar en la aplicación son las siguientes:
+Las principales tareas de mantenimiento a realizar en la aplicación son las siguientes:
 - Refactorización del FrontEnd a VueJS.
 - Corregir errores encontrados o reportados por usuarios del sitio.
 - Mantener los certificados HTTPS activos cada 3 meses.
@@ -45,7 +45,7 @@ Algunas incidencias con las que se puede topar el proyecto y que habrá que reso
 - Mantener y arreglar fallos que actualmente existen en el proyecto pero no influyen de manera significativa a la experiencia del usuario utilizando la aplicación.
 - Atender correos de los usuarios reportando incidencias dentro del sitio.
 
-## Política de privaciadad
+## Política de privacidad
 
 Protección de datos de carácter persoal:
 
@@ -54,5 +54,5 @@ Protección de datos de carácter persoal:
 
 ## Manual de usuario
 
-Para cualquier duda, problema, consejo y pregunta que pueda surgir a los usuarios del sitio, Naevus posee su propi [FAQ](https://naevus.giize.com/info). 
+Para cualquier duda, problema, consejo y pregunta que pueda surgir a los usuarios del sitio, Naevus posee su propio [FAQ](https://naevus.giize.com/info). 
 Este es mantenido por los administradores del sitio, principalmente recibiendo correos de los clientes que preguntan dudas o consejos a la hora de utilizar la aplicación web. Más preguntas y respuestas se añaden periódicamente.

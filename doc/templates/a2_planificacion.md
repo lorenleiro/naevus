@@ -1,7 +1,7 @@
 # Planificación
 
 ## Metodología prevista
-Se utilizará una metodología ágil, ayundándonos con herramientas como [ClickUp](https://clickup.com/2?utm_expid=.aV4GY1erSwu_p7FoBAj5Yg.1&utm_referrer=).
+Se utilizará una metodología ágil, con la ayuda de herramientas como [ClickUp](https://clickup.com/2?utm_expid=.aV4GY1erSwu_p7FoBAj5Yg.1&utm_referrer=).
 
 ## Fases planificadas
 

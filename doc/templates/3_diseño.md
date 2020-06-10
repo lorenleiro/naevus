@@ -25,6 +25,5 @@ Diagrama UML de la aplicación
 *Vista de los enlaces externos de un proyecto*
 ![Enlaces externos del proyecto](../img/enlaces.PNG)
 
-
 ## Diagrama de Base de Datos
 ![Modelo relacional](../img/modelo_relacional.PNG)

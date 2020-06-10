@@ -1,11 +1,10 @@
 # Análisis: Requisitos del sistema
 
-Este documento describe los requisitos para la aplicación web *Naevus* especificando qué funcionalidad ofrecerá y de que manera.
+Este documento describe los requisitos para la aplicación web **Naevus** especificando qué funcionalidad ofrecerá y de que manera.
 
 ## 1. Descripción general
 
-Naevus es una aplicación web desarrollada para todos aquellos desarrolladores independientes de videojuegos que necesitan de alguna manera no solo publicitar su proyecto a la comunidad de jugadores, si no que tambien les es necesario una herramienta capaz de mantener contacto directo con su público objetivo para recibir apoyo, opiniones 
-y comentarios sobre el trabajo que están haciendo, y así poder adaptarlo mejor a lo que realmente el usuario final quiere y necesita.
+Naevus es una aplicación web desarrollada para todos aquellos desarrolladores independientes de videojuegos que necesitan de alguna manera no solo publicitar su proyecto a la comunidad de jugadores, si no que tambien les es necesario una herramienta capaz de mantener contacto directo con su público objetivo para recibir apoyo, opiniones y comentarios sobre el trabajo que están haciendo, y así poder adaptarlo mejor a lo que realmente el usuario final quiere y necesita.
 
 ## 2. Funcionalidades
 
@@ -23,19 +22,20 @@ A continuación, se describen todas las funcionalidades que la aplicación web p
     + Añadir imágenes (id, image).
     + Editar / borrar descripciones (id, descriptionX).
     + Eliminar imágenes (id, image).
+    + Añadir desarrolladores (*lo mismo que creación de usuarios*).
 - Noticias y actualizaciones:
     + Creación de noticias (id, projectid, userid, title, text, image, date).
     + Edición de noticias (id, projectid, userid, title, text, image, date).
     + Eliminar noticias (id).
 - Comentarios en actualizaciones y noticias:
     + Crear comentarios (id, userid, updateid, text, date).
-    + Eliminación de comentarios (id);
-- Comentarios y opiniones:
+    + Eliminación de comentarios (id).
+- Comentarios y opiniones (feedbacks):
     + Creación de opiniones (id, projectid, userid, title, text, image, date, state).
     + Modificación de opiniones (id, projectid, userid, title, text, image, date, state).
     + Eliminación de opiniones (id).
     + Cambio de estado del comentario u opinión (id, state);
-- Comentarios en comentarios y opiniones:
+- Comentarios en feedbacks:
     + Crear comentarios (id, userid, feedbackid, text, date).
     + Eliminación de comentarios (id);
 - Enlaces externos:

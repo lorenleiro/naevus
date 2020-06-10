@@ -1,6 +1,5 @@
 # Estudio preliminar
 
-
 ## 1. Introducción
 
 La documentación escrita a continuación explica paso a paso el desarrollo de una aplicación web destinada al sector del entretenimiento y la comunicación.
@@ -24,7 +23,6 @@ Uno de los grandes problemas que los pequeños grupos de desarrolladores de vide
 Esta aplicación les permite enseñarlo incluso en los primeros meses de desarrollo, cuando el proyecto no es más que un prototipo, lo cuál puede llegar a ser conveniente,si el 
 tipo de juego se lanza en Acceso Anticipado, pudiendo así recibir comentarios de errores, opiniones y cambios que podrían realizar, para así adaptarse más fácilmente a lo
 que les pide la comunidad.
-
 
 ## 3. Definiciones 
 
@@ -60,36 +58,7 @@ Dentro de este contexto podemos detectar distintas deficiencias que se intentar�
 - Necesidad de un canal directo con el usuario final.
 - Complejidad a la hora de utilizar todas las herramientas de una web. Desde Naevus el sistemas de funcionalidades está totalmente centralizado.
 
-- Existen na actualidade aplicacións que tenten dar resposta a esa(s) necesidade(s)? ¿En qué medida o conseguen?
-    - Si que existen, todas ellas lo hacen de una manera muy efectiva, ya que llevan muchos años funcionando y su comunidad es cada vez más grande.
-- Por que é necesaria a posta en marcha dun proxecto que aborde dita necesidade?
-    - No existe algo en el mercado con ese nivel de cercanía entre ambas partes, desarrolladores y usuarios finales. 
-- Cal é o obxectivo xeral que persegue o proxecto?
-    - Ayudar a la comunidad de videojuegos a apoyar al mercado de videojuegos independientes.
-- Responde a estas preguntas concretas:
-	- Como se pode responder a esta necesidade? 
-	    - Creando un canal directo entre el usuario final y los desarrolladores, que permita de una manera muy fácil la comunicación entre ambas partes.
-	- Que pode facerse para cambiar este estado de cousas? 
-	- Nuevas funcionalidades que otras ppáginas no tienen, como el sistema de estados de los feedbacks de los usuarios que posee Naevus.
-	- Como podemos contribuír desde a nosa situación a que o problema se resolva? 
-	- Facilitando a las personas que lo necesitan el acceso a la aplicación que se describe en esta documentación.
-	- Que medios, actividades e recursos van poñer en xogo? 
-	- Simplemente los usuarios necesitan un dispositivo con el que poder conectarse a internet. Desde un móvil o ordenador se puede utilizar la aplicación sin ninguna 
-	  diferencia enorme.
-	- Que actividades van realizar?
-	- Publicación de sus proyectos, gestión dentro de la aplicación de ellos, contacto con los usuarios finales.
-	- Con qué metodoloxía vai levar a cabo o traballo?  
-	    - Metodología ágil. Ayudándose de herramientas como [ClickUp](https://clickup.com/2?utm_expid=.aV4GY1erSwu_p7FoBAj5Yg.1&utm_referrer=), para gestionar de manera eficaz
-	      el tiempo empleado en cada una de las secciones del proyecto.
-	- Que persoas serían precisas para realizar o proxecto con éxito? 
-	    - Las personas más idóneas para crear un proyecto semejante son sobre todo aquellos con conocimientos de desarrollo web y bases de datos.
-	- Con canto tempo se conta? 
-	    - Para la creación del proyecto se cuenta con un tiempo de 2 meses más o menos.
-	- Canto tempo se necesita?
-	    - Para la creación de un prototipo que implemente la mayoría de las funcionalidades se necesitan sobre 2 meses. Para crear una aplicación web y ponerla en producción,
-	      se estima que es necesario un tiempo total de 4 meses.
-
-Recurso: [Guía para a elaboración de proyectos. Gobierno Vasco.](https://www.pluralismoyconvivencia.es/upload/19/71/guia_elaboracion_proyectos_c.pdf) (páxina 26 e seguintes)
+Por otro lado, es cierto que existen aplicaciones semejantes, todas ellas cumplen su cometido de una manera muy efectiva, ya que llevan muchos años funcionando y su comunidad es cada vez más grande. Aún así, no existe algo en el mercado con este nivel de cercanía entre ambas partes, desarrolladores y usuarios finales.
 
 ## 6. Modelo de negocio 
 No existen muchas páginas web en internet que den un acceso tan directo a los desarrolladores con su comunidad. Es por eso que se creó Nevus, abriendo  numerosas posibilidades
@@ -128,8 +97,6 @@ A largo plazo, el proyecto dejará de tener pérdidas. Aunque es posible que se 
 La competencia directa se llama [Game Jolt](https://gamejolt.com/). Es una página web que permite publicitar y descargar los juegos indie desde el navegador. Ocupa actualmente el primer puesto en este tipo de mercado.
 
 Además, existen otro tipo de plataformas com Steam, Epic Games, Humble Bundle, etc... que ofrecen características similares. Identificamos este tipo de plataformas como competencia indirecta, ya que nuestro principal objetivo no es ser una tienda de videojuegos, pero al tener características parecidas como que los usuairos pueden hacer "Reviews" o publicar su opinión, es probable que ocupen parcialmente nuestro mercado también.
-
-Recurso: [Modelo de plan de negocios. Empresa de servicios informáticos. IGAPE](http://www.igape.es/images/crear-unha-empresa/Recursos/PlansdeNegocio/16ServiciosInformaticos12_5_cas.pdf) (páxina 45 e seguintes)
 
 ### 6.3. Promoción
 - Técnicas eligidas:

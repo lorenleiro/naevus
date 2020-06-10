@@ -22,11 +22,7 @@ O maior custo no proxecto case sempre corresponde ás persoas, polo que é impor
 
 | Descripción | Tipo de recurso | Coste (euros) | Cantidad | Precio total |
 | Portátil MSI GL626QF | Hardware | 800 | 1 | 800 |
-|         
-|||||
-|||||
-|||||
-|||||
+
 
 | TOTAL | PROXECTO | 
 | -- | -- |

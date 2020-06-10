@@ -15,7 +15,19 @@ const smtpTrans = nodemailer.createTransport({
 });
 
 
-
+/**
+ * Sube una imagen al servidor y la guarda en la tabla correspondiente en la base de datos.
+ * 
+ * @param filename nombre de la imagen.
+ * @param projectid id del proyecto al que pertenecerá la imagen.
+ * @param type el tipo de imagen que se subirá, esta puede ser de 5 tipos:
+ *  - description1
+ *  - description2
+ *  - description3
+ *  - carousel
+ *  - logo
+ * @param imageName
+ */
 exports.project_uploadimage = async function(req, res)
 {
     let conn = await pool.getConnection();

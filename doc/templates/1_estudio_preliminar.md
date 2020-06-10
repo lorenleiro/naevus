@@ -79,18 +79,12 @@ necesario contratar un servicio en la nube para alojar el servidor.
 No existe ningún impedimento grave como para dificultar el proceso de creación de la aplicación.
 
 #### 6.1.2. Viabilidad económica
-- Gastos
-    + Horas trabajadas + hogar: 1200€ / mensual
-    + Gastos fijos: 150€ /mensual
-    + Equipamiento: 800€ / único pago
-    + Gestoría: 250€
-    + Dominio: 50€/año
-    + Servidor en la nube: 20€ / mes
-    + Software y licencias: licencia Apache 2.0, Visual Studio Code.
 
 Los beneficios serán graduales desde que se ponga en producción la aplicación. Hasta que esta no tenga un número decente de usuarios registrados en ella, no será posible empezar a comercializarla.
   
 A largo plazo, el proyecto dejará de tener pérdidas. Aunque es posible que se necesite pedir un crédito para sufragar los gastos iniciales y el mantenimiento hasta que la aplicación empieze a tener un flujo de usuarios constante y comience a ser viable económicamente.
+
+Para más información sobre gastos e inversiones del proyecto, véase el [presupuesto](doc/templates/a3_presupuesto.md) del proyecto.
 
 ### 6.2. Competencia
 
@@ -103,7 +97,7 @@ Además, existen otro tipo de plataformas com Steam, Epic Games, Humble Bundle, 
 	+ Redes sociales: muy fáciles de usar y mantener. La mayoría de ellas ya cuentas con opciones para publicitar tu pequeño negocio o empresa.
 	+ Páginas web: desde otros sitios web, se podrá ver anunucios sobre nuestra página.
 	+ Posicionamento web.
-	+ Patrocinios: con el tiempo el proyecto crecerá e irá generendo más interes en grandes compañías.
+	+ Patrocinios: con el tiempo el proyecto crecerá e irá generando más interes en grandes compañías.
     
 ### 6.4. Modelo de negocio
 - Modelo eligido: 

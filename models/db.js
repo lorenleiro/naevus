@@ -5,7 +5,7 @@ var mariadb = require('mariadb');
 const pool = mariadb.createPool({
   host: "localhost", 
   user: "naevus", 
-  password: "Suvean242",
+  password: process.env.DBPASSWORD,
   database: "naevus",
   dateStrings: true
 });

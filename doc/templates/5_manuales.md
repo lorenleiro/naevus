@@ -15,9 +15,11 @@ Para la instalación de la aplicación, es necesario configurar un servidor de l
     + Instalación de PHPMyAdmin.
     + Instalación de Nodemon o Forever para arrancar el servidor.
 
-Copiar el repositorio a la carpeta raíz de tu directorio web. Arrancar el servidor con `nodemon index.js`. Se recomienda arrancar el servidor con Forever para que se reinicie automáticamente si ocurre algún error `forever start index.js`.
-
-Por último acceder a la web desde http://localhost:80
+Para instalar correctamente la aplicación, sigue estos sencillos pasos:
+- Copiar el repositorio y pegarlo en tu carpeta web.
+- Instalar las dependencias con `npm install`.
+    + Si tu sistema no cuenta con npm de serie, puedes instalarlo con `sudo apt-get install npm`.
+- Arrancar el servidor con `nodemon index.js`. Se debería mostrar por consola en qué puerto e stá escuchando el servidor.
 
 ### Administración del sistema
 

@@ -42,9 +42,10 @@ Recursos humanos|Lorenzo Torres Rodríguez
 Duración| 2 meses
 
 ## Calendario
-Calendario que indique as datas nas cales se vai desenvolver a aplicación. Este calendario pódelo facer de dúas formas:
 
-- Cunha **táboa** que recolla as diferentes accións a realizar xunto coas datas de inicio e fin de cada acción.
-- Cun **cronograma** como pode ser un diagrama de Gantt, o cal permite visualizar de forma gráfica canto vai ocupar cada acción no tempo.
-
-Trátase dunha estimación, moi probablemente se vai a modificar mentres se avance no proxecto.
+| Etapa | Inicio | Fin | Duración |
+| -- | -- | -- | -- |
+| Estudio preliminar | 10/03/2020 | 18/03/2020 | 8 días |
+| Análisis | 19/03/2020 | 22/03/2020 | 4 días |
+| Diseño | 23/03/2020 | 25/03/2020 | 2 días |
+| Codificación y pruebas | 26/03/2020 | 1/06/2020 | 68 días |

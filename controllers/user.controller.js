@@ -466,6 +466,15 @@ exports.user_changuephoto = async function(req,res)
     conn.end();
 }
 
+/**
+ * Formulario de contacto del sitio. Comprueba que los datos introducidos son correctos, y se envía el correo.
+ * 
+ * @param name nombre del emisor.
+ * @param email correo electrónico del emisor.
+ * @param subject asunto del correo.
+ * @param message mensage del emisor.
+ * @errors middleware para la validación del formulario.
+ */
 exports.user_contact = async function(req,res)
 {
     let name = req.body.name;
@@ -497,5 +506,4 @@ exports.user_contact = async function(req,res)
             res.type('json').status(200).send({ status: "ok", data:"El email se ha enviado correctamente."});
         }
     });
-    
 };

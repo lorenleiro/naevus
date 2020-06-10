@@ -1,7 +1,8 @@
 # Diseño
 
 ## Modelo conceptual del dominio de la aplicación
-Diagrama UML de la aplicaciónç
+Diagrama UML de la aplicación
+
 ![Diagrama UML de Naevus](../img/uml.PNG)
 
 ## Diseño de la interfaz de usuarios

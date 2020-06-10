@@ -1,9 +1,8 @@
-# Orzamento
+# Presupuesto
 
 Cando realizar o orzamento:
 - **Antes de comezar o estudo preliminar**, realiza un orzamento para as fases de estudo preliminar, análise e deseño. 
 - **Unha vez realiza esas tres fases**, remata de completar o orzamento co coste da fase de execución.
-
 
 Realizar o orzamento do proxecto é relativamente fácil se a planificación está ben elaborada. 
 Neste caso dispoñerase dun custo por cada actividade e a suma do custo de todas as actividades será o custo total do proxecto. 
@@ -21,9 +20,9 @@ O maior custo no proxecto case sempre corresponde ás persoas, polo que é impor
 
 ## Orzamento por actividade
 
-| ACTIVIDADE | DURACIÓN | CUSTO (EUROS) | | CUSTO TOTAL ACTIVIDADE |
-|--|--|--|--|--|
-|            |          | PERSOAS|RECURSOS MATERIAIS|
+| Descripción | Tipo de recurso | Coste (euros) | Cantidad | Precio total |
+| Portátil MSI GL626QF | Hardware | 800 | 1 | 800 |
+|         
 |||||
 |||||
 |||||

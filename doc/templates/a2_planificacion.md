@@ -1,16 +1,11 @@
 # Planificación
 
-Antes de comezar co **estudo preliminar**, realiza unha planificación para as fases de estudo preliminar, análise e deseño. UUnha vez realiza esas tres fases, remata de completar a planificación coa fase de execución.
-
-## Metodoloxía prevista
-Descrición da metodoloxía prevista en todas as fases.
+## Metodología prevista
+Se utilizará una metodología ágil, ayundándonos con herramientas como [ClickUp](https://clickup.com/2?utm_expid=.aV4GY1erSwu_p7FoBAj5Yg.1&utm_referrer=).
 
 ## Fases planificadas
 
-Descríbense as fases en que se divide o proxecto.
-Pódense indicar os recursos materiais e humanos asociados a cada tarefa ou, se son os mesmos, de maneira máis xeral.
-
-#### Fase 1: Estudo preliminar
+#### Fase 1: Estudio preliminar
 
 Tarea 1|Análisis
 -|-
@@ -19,70 +14,32 @@ Recursos hardware/software| Ninguno
 Recursos humanos|Lorenzo Torres Rodríguez
 Duración| 1 día
 
-Tarea 2|Título da tarefa 2
--|-
-Descripción| 
-Recursos hardware/software| 
-Recursos humanos|
-Duración| 
+#### Fase 2: Requisitos del sistema (análisis)
 
-...
-
-#### Fase 2: Requerimentos do sistema (análise)
-
-Tarea 2|Requisitos
+Tarea 1|Requisitos
 -|-
 Descripción|Comprobar qué es encesario para que la aplicación funcione correctamente
 Recursos hardware/software|Programas necesarios para que la aplicación funcine
-Recursos humanos|Programador
+Recursos humanos|Lorenzo Torres Rodríguez
 Duración| 1 día
 
-Tarea 2|Título da tarefa 2
--|-
-Descripción| 
-Recursos hardware/software| 
-Recursos humanos|
-Duración| 
-
-...
-
-#### Fase 3: Deseño
+#### Fase 3: Diseño
 
 Tarea 2|Diseño del sitio
 -|-
 Descripción|Diseñar todas las vistas de la aplicación web
 Recursos hardware/software|Aplicación para crear mokups
-Recursos humanos|Programador
+Recursos humanos|Lorenzo Torres Rodríguez
 Duración| 1 día
-
-Tarea 2|Título da tarefa 2
--|-
-Descripción| 
-Recursos hardware/software| 
-Recursos humanos|
-Duración| 
-
-...
-
 
 #### Fase 4: Execución
 
-Tarefa 1|Título da tarefa 1
+Tarefa 1|Programación
 -|-
-Descrición| 
-Recursos hardware/software| 
-Recursos humanos|
-Duración| 
-
-Tarefa 2|Título da tarefa 2
--|-
-Descrición| 
-Recursos hardware/software| 
-Recursos humanos|
-Duración| 
-
-...
-
+Descrición| Programar toda la aplicación
+Recursos hardware/software| Visual Studio Code
+Recursos humanos|Lorenzo Torres Rodríguez
+Duración| 2 meses
 
 ## Calendario
 Calendario que indique as datas nas cales se vai desenvolver a aplicación. Este calendario pódelo facer de dúas formas:

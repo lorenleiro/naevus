@@ -21,6 +21,7 @@ O maior custo no proxecto case sempre corresponde ás persoas, polo que é impor
 ## Orzamento por actividade
 
 | Descripción | Tipo de recurso | Coste (euros) | Cantidad | Precio total |
+| -- | -- | -- | -- | -- |
 | Portátil MSI GL626QF | Hardware | 800 | 1 | 800 |
 
 

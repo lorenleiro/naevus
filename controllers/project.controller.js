@@ -687,7 +687,6 @@ exports.project_updateview = async function(req,res)
 
 exports.project_updatecomments = async function(req,res)
 {
-    
     let conn = await pool.getConnection();
     let updateid = req.body.updateid;
     

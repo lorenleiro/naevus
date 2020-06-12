@@ -46,7 +46,7 @@ exports.user_signup = async function (req, res)
     {
         if(result[0])
         {
-            res.type('json').status(403).send({ status: "error", data:"Ese email ya está registrado."});
+            res.type('json').status(401).send({ status: "error", data:"Ese email ya está registrado."});
         } else {
             return conn.query('INSERT INTO users(username, email, password) VALUES(?,?,?)', [user, email, password])
         }

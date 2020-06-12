@@ -1,7 +1,6 @@
 # Diseño
 
-## Modelo conceptual del dominio de la aplicación
-Diagrama UML de la aplicación
+## Modelo conceptual
 
 ![Diagrama UML de Naevus](../img/uml.PNG)
 

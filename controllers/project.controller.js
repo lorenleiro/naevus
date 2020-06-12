@@ -21,11 +21,11 @@ const smtpTrans = nodemailer.createTransport({
  * @param filename nombre de la imagen.
  * @param projectid id del proyecto al que pertenecerá la imagen.
  * @param type el tipo de imagen que se subirá, esta puede ser de 5 tipos:
- *  - description1
- *  - description2
- *  - description3
- *  - carousel
- *  - logo
+ *  - description1: imagen de la descripcion 1 del proyecto
+ *  - description2: imagen de la descripcion 2 del proyecto
+ *  - description3: imagen de la descripcion 3 del proyecto
+ *  - carousel: imágenes del carousel del poryecto
+ *  - logo: logo del proyecto
  * @param imageName
  */
 exports.project_uploadimage = async function(req, res)
@@ -120,6 +120,9 @@ exports.project_uploadimage = async function(req, res)
     conn.end();
 };
 
+/**
+ * Elimina un proyecto. Desde la base de datos se encarga de eliminar todo lo que este contiene.
+ */
 exports.project_delete = async function(req,res)
 {
     let conn = await pool.getConnection();
@@ -178,6 +181,9 @@ exports.project_editproject_post = async function(req,res)
     conn.end();
 };
 
+/**
+ * Carga en la variable de sesión del usuario el ID de un proyecto, este será el próximo proyecto que se visualizará.
+ */
 exports.project_currentProjectID = function (req,res)
 {
     session= req.session;

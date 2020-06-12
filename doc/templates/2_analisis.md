@@ -22,7 +22,7 @@ A continuación, se describen todas las funcionalidades que la aplicación web p
     + Añadir imágenes (id, image).
     + Editar / borrar descripciones (id, descriptionX).
     + Eliminar imágenes (id, image).
-    + Añadir desarrolladores (*lo mismo que creación de usuarios*).
+    + Añadir desarrolladores (id, username,email,password,type,photo).
 - Noticias y actualizaciones:
     + Creación de noticias (id, projectid, userid, title, text, image, date).
     + Edición de noticias (id, projectid, userid, title, text, image, date).
@@ -46,16 +46,16 @@ A continuación, se describen todas las funcionalidades que la aplicación web p
 
 En este apartado se muestran todos los tipos de usuarios que existen en la aplicación, así como los permisos y tareas que puede realizar cada uno.
 
-- Cliente: internauta que no se ha registrado en el sitio, pero puede navegar por las páginas públicas sin ningún tipo de problema.
-- Usuario normal (user): usuario registrado en la aplicación. Puede hacer todo lo que hace un cliente, además, puede publicar opiniones en los proyectos, así como comentarios en noticias y opiniones. 
-- Usuario desarrollador (dev): usuario registrado en el sitio que ha cambiado su tipo de cuenta a usuario desarrollador. Puede hacer todo lo que hace un usuario normal, aunque su posición le ofrece más funcionalidades:
+- **Cliente**: internauta que no se ha registrado en el sitio, pero puede navegar por las páginas públicas sin ningún tipo de problema.
+- **Usuario normal** (user): usuario registrado en la aplicación. Puede hacer todo lo que hace un cliente, además, puede publicar opiniones en los proyectos, así como comentarios en noticias y opiniones. 
+- **Usuario desarrollador** (dev): usuario registrado en el sitio que ha cambiado su tipo de cuenta a usuario desarrollador. Puede hacer todo lo que hace un usuario normal, aunque su posición le ofrece más funcionalidades:
     + Creación de proyectos.
     + Añadir nuevos usuarios desarrolladores a sus proyectos.
     + Creación de noticias para cada proyecto.
     + Edición de noticias.
     + Eliminación de sus proyectos.
     + Cambiar el estado de las opiniones de otros usuarios sobre su proyecto.
-- Usuario administrador(admin): puede realizar todo lo que hace un usuario normal, aunque posee dos funcionalidades extra:
+- **Usuario administrador** (admin): puede realizar todo lo que hace un usuario normal, aunque posee dos funcionalidades extra:
     + Eliminación de usuarios.
     + Eliminación de proyectos.
 
@@ -95,7 +95,10 @@ El software utilizado para el desarrollo del proyecto es el siguiente:
 
 ## 6. Interfaces externas
 
-La aplicación web se comunica con el exterior mediante una interfaz de usuario. Todos los datos son mostrador por pantalla mediante la interfaz. El software empleado es JavaScript, Jquery y Bootstrap 4.
+Para utilizar la aplicación web, solamente es necesario un navegador web y conexión a internet. Los navegadores deben estar actualizados al menos a esats versiones:
+- Edge v.83 o superior.
+- Firefox v.76 o superior.
+- Chrome v.83 o superior.
 
 ## 7. Mejoras futuras
 

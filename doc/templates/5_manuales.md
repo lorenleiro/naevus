@@ -9,6 +9,7 @@ Para la instalación de la aplicación, es necesario configurar un servidor de l
     + Conexión a  internet.
 - Requisitos software:
     + Servidor con Raspbian 10 o en su defecto Debian 10.
+    + NodeJS versión 13.10.0 o superior.
     + Instalación de NPM.
     + Instalación y configuración de Nginx.
     + Instalación y configuración de MariaDB.

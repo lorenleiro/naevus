@@ -29,8 +29,7 @@ que les pide la comunidad.
 - Términos propios del proyecto:
     + Naevus: el propio proyecto.
     + Usuario normal: usuario registrado en el sitio. Puede crear comentarios y feedbacks.
-    + Usuario desarrollador: usuario registrado en el sitio, puede hacer todo lo que hace el usuario normal pero además puedecrear proyectos y noticias y gestionar todo lo
-    + que sucede dentro del propio proyecto.
+    + Usuario desarrollador: usuario registrado en el sitio, puede hacer todo lo que hace el usuario normal pero además puede crear proyectos y noticias y gestionar todo lo que sucede dentro del propio proyecto.
     + Usuario admin: usuario registrado en el sitio. Tiene control total, pudiendo eliminar usuarios y proyectos.
     + Feedbacks: se refiere de manera abreviada a la sección de los proyectos de "Comentarios y opiniones".
 
@@ -47,16 +46,16 @@ cualquiera, aunque la aplicación limitará su zona de trabajo a España en los 
 
 ## 5. Necesidades
 
-Desde no hace mucho, los pequeños juegos empezaron a tener un peso importante en la industria del entretenimiento. Tanto es así que peuqeños grupos de personas llegaron a 
+Desde no hace mucho, los pequeños juegos empezaron a tener un peso importante en la industria del entretenimiento. Tanto es así que pequeños grupos de personas llegaron a 
 crear juegos Best Seller y juegos del año, teniendo como competencia las grandes multinacionales con equipos y herramientas más que preparadas para desarrollar un gran título.
 Es cierto que cada vez existen más posibilidades de dar a luz lo que los desarrolladores independientes están creando, aunque la gran mayoría siempre se llevan un porcentaje 
 alto de las ganacias de estes, por poner a la venta su videojuego en su página.
 
 Dentro de este contexto podemos detectar distintas deficiencias que se intentarán resolver o disminuir con este prototipo:
-- Suficientes páginas para publicar los videojuegos, pero pocas que permitan el tacto directo con los usuarios finales como lo hace este proyecto.
-- La mayoría de ellas quitan un porcentaje de las ventas de los juegos. En esta aplicaci´n eso no ocurre, hay otros métodos de pago más eficiente y opcionales.
+- Suficientes páginas para publicar los videojuegos, pero pocas que permitan el trato directo con los usuarios finales como lo hace este proyecto.
+- La mayoría de ellas quitan un porcentaje de las ventas de los juegos. En esta aplicación eso no ocurre, hay otros métodos de pago más eficiente y opcionales.
 - Necesidad de un canal directo con el usuario final.
-- Complejidad a la hora de utilizar todas las herramientas de una web. Desde Naevus el sistemas de funcionalidades está totalmente centralizado.
+- Complejidad a la hora de utilizar todas las herramientas de una web. Desde Naevus, todas las operaciones que un usuario puede realizar están centralizadas un su "Menú personal".
 
 Por otro lado, es cierto que existen aplicaciones semejantes, todas ellas cumplen su cometido de una manera muy efectiva, ya que llevan muchos años funcionando y su comunidad es cada vez más grande. Aún así, no existe algo en el mercado con este nivel de cercanía entre ambas partes, desarrolladores y usuarios finales.
 
@@ -90,7 +89,7 @@ Para más información sobre gastos e inversiones del proyecto, véase el [presu
 
 La competencia directa se llama [Game Jolt](https://gamejolt.com/). Es una página web que permite publicitar y descargar los juegos indie desde el navegador. Ocupa actualmente el primer puesto en este tipo de mercado.
 
-Además, existen otro tipo de plataformas com Steam, Epic Games, Humble Bundle, etc... que ofrecen características similares. Identificamos este tipo de plataformas como competencia indirecta, ya que nuestro principal objetivo no es ser una tienda de videojuegos, pero al tener características parecidas como que los usuairos pueden hacer "Reviews" o publicar su opinión, es probable que ocupen parcialmente nuestro mercado también.
+Además, existen otro tipo de plataformas com [Steam](https://store.steampowered.com/), [Epic Games](https://www.epicgames.com/store/en-US/), [Humble Bundle](https://www.humblebundle.com/), etc... que ofrecen características similares. Identificamos este tipo de plataformas como competencia indirecta, ya que nuestro principal objetivo no es ser una tienda de videojuegos, pero al tener características parecidas como que los usuairos pueden hacer "Reviews" o publicar su opinión, es probable que ocupen parcialmente nuestro mercado también.
 
 ### 6.3. Promoción
 - Técnicas eligidas:
@@ -100,5 +99,14 @@ Además, existen otro tipo de plataformas com Steam, Epic Games, Humble Bundle, 
 	+ Patrocinios: con el tiempo el proyecto crecerá e irá generando más interes en grandes compañías.
     
 ### 6.4. Modelo de negocio
-- Modelo eligido: 
-	+ Freemium: la aplicación será de uso libre y gratuito para cualquiera. Las funcionalidades extra podrán ser adquiridas mediante un pago mensual por aquellos interesados.
+
+El modelo de negocio elegido para esta aplicación es el **Freemium**. Este tipo de modelo cuenta con sus ventajas y desventajas respecto a otras opciones, sin embargo, el beneficio económico que se intenta obtener con este proyecto no es el único parámetro a tener en cuenta, ya que un modelo de uso donde únicamente puedan publicar sus juegos los desarrolladores que paguen una cuota, por ejemplo, puede ser motivo suficiente para que nuestro público objetivo no se interese por nuestra aplicación.
+
+Es por eso que con el modelo de negocio Freemium intentamos cumplir dos objetivos esenciales:
+- Obtener beneficios a largo plazo: cuanto más tiempo tenga la aplicación, más conocida sea y más la usen, los usuarios que soliciten pasarse al modelo de pago serán cada vez más y proporcionalmente lo serán los ingresos obtenidos.
+- Aplicación atractiva al público: adquirir las funcionalidades extra no es algo obligatorio, por lo que los usuarios podrán seguir utilizando la aplicación gratuitamente, y pasarse al modelo de pago una vez la hayan probado y les convenga.
+
+En resumen, los usuarios podrán optar por pagar o no una cuota mensual, que les ofrecerá distintas ventajas a la hora de usar la aplicación, además se podrán dar de baja en cualquier momento. Los precios serán personalizados, pero rondarán entre los 2.99€ y los 29.99€, dependiendo del tipo de usuario o empresa. algunas de las funcionalidades extra con las que contarían son:
+- Herramientas de gestión de proyectos.
+- Publicidad de sus proyectos en las páginas principales de la aplicación.
+- Servicio técnico.

@@ -26,6 +26,10 @@ $(function()
                         },
                         error: function (xhr,ajaxOptions,error)
                         {
+                            if (xhr.status==401)
+                            {
+                                $("#notification").html('').hide().addClass("alert alert-danger").attr("role","alert").html('<strong>Error al darse de alta.</strong> El correo electrónico introducido ya existe.').fadeIn(1000);
+                            }
                             if (xhr.status==403)
                             {
                                 $("#notification").html('').hide().addClass("alert alert-danger").attr("role","alert").html('<strong>Error al darse de alta.</strong> Comprueba que todos los campos son correctos. La contraseña debe tener al menos una letra mayúscula, un número y tener más de 8 carácteres.').fadeIn(1000);

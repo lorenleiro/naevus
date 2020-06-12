@@ -7,23 +7,23 @@
 ## Diseño de la interfaz de usuarios
 *Vista de la página de inicio del sitio*
 
-![Página de inicio](../img/index.PNG =500x500)
+<img src="index.PNG" alt="Página de inicio" max-height="80%"/>
 *Vista de un proyecto*
-![Vista de proyecto](../img/proyecto.PNG =500x500)
+![Vista de proyecto](../img/proyecto.PNG)
 *Vista de contacto del sitio*
-![Vista de contacto](../img/contacto.PNG =500x500)
+![Vista de contacto](../img/contacto.PNG)
 *Vista del perfil del usuario*
-![Perfil del usuario](../img/perfil.PNG =500x500)
+![Perfil del usuario](../img/perfil.PNG)
 *Vista de todos los proyectos del sitio*
-![Vista de todos los proyectos del sitio](../img/buscador.PNG =500x500)
+![Vista de todos los proyectos del sitio](../img/buscador.PNG)
 *Vista de registro e inicio de sesión*
-![Registro e inicio de sesión](../img/registro.PNG =500x500)
+![Registro e inicio de sesión](../img/registro.PNG)
 *Vista de la lista de comentarios y noticias de un proyecto*
-![Vista de los comentarios y noticias del proyecto](../img/comentarios_noticias.PNG =500x500)
+![Vista de los comentarios y noticias del proyecto](../img/comentarios_noticias.PNG)
 *Vista principal de un comentario o noticia*
-![Vista de los comentarios de noticias y feedbacks](../img/comentarios.PNG =500x500)
+![Vista de los comentarios de noticias y feedbacks](../img/comentarios.PNG)
 *Vista de los enlaces externos de un proyecto*
-![Enlaces externos del proyecto](../img/enlaces.PNG =500x500)
+![Enlaces externos del proyecto](../img/enlaces.PNG)
 
 ## Caso de uso
 

@@ -24,5 +24,9 @@
 *Vista de los enlaces externos de un proyecto*
 ![Enlaces externos del proyecto](../img/enlaces.PNG)
 
+## Caso de uso
+
+![Caso de uso del proyecto](../img/caso_de_uso.PNG)
+
 ## Diagrama de Base de Datos
 ![Modelo relacional](../img/modelo_relacional.PNG)

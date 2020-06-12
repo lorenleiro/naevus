@@ -31,7 +31,7 @@
 <img src="../img/comentarios.PNG" alt="Vista de los comentarios de noticias y feedbacks" title="Vista de los comentarios de noticias y feedbacks" height="500px" />
 
 **Vista de los enlaces externos de un proyecto**
-<img src="../img/enalces.PNG" alt="Enlaces externos del proyecto" title="Enlaces externos del proyecto" height="500px" />
+<img src="../img/enlaces.PNG" alt="Enlaces externos del proyecto" title="Enlaces externos del proyecto" height="500px" />
 
 
 ## Caso de uso

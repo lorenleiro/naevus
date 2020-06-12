@@ -6,7 +6,7 @@
 
 ## Diseño de la interfaz de usuarios
 *Vista de la página de inicio del sitio*
-<img src="../img/index.PNG" alt="Kitten" title="Página de inicio" style=" height='500px'; border='1px solid black';" />
+<img src="../img/index.PNG" alt="Kitten" title="Página de inicio" style=" height='500'; border='1px solid black';" />
 *Vista de un proyecto*
 ![Vista de proyecto](../img/proyecto.PNG)
 *Vista de contacto del sitio*

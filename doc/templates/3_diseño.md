@@ -7,7 +7,7 @@
 ## Diseño de la interfaz de usuarios
 *Vista de la página de inicio del sitio*
 
-<img src="index.PNG" alt="Página de inicio" max-height="800"/>
+<img src="index.PNG" alt="Página de inicio" height="800px"/>
 *Vista de un proyecto*
 ![Vista de proyecto](../img/proyecto.PNG)
 *Vista de contacto del sitio*

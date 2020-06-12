@@ -48,7 +48,7 @@ Algunas incidencias con las que se puede topar el proyecto y que habrá que reso
 
 ## Política de privacidad
 
-Protección de datos de carácter persoal:
+Protección de datos de carácter personal:
 
 - [Ley Orgánica 3/2018, de 5 de diciembre, de Protección de Datos Personales y garantía de los derechos digitales (LOPDPGDD)](https://www.boe.es/buscar/act.php?id=BOE-A-2018-16673)
 - [General Data Protection Regulation (GDPR)](https://eur-lex.europa.eu/eli/reg/2016/679/oj)

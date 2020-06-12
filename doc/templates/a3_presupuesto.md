@@ -22,7 +22,7 @@
 | Camapaña en Facebook | Red Social | 650 € |
 | Camapaña en Instagram | Red Social | 600 € |
 | Camapaña en Twitter | Red Social | 625 € |
-| TOTAL mano de obra || 1875 € |
+| TOTAL mano de obra | 1875 € | |
 
 **Costes de mantenimiento (anuales)**
 

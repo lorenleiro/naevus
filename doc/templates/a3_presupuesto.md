@@ -40,5 +40,4 @@
 | Materiales | 840 € |
 | Mano de obra | 7200 € |
 | Publicidad | 1875 € |
-| Mantenimiento | 8,428.76 € |
-| COSTE TOTAL | 18,343.76 € |
+| COSTE TOTAL | 9,900.15 € |

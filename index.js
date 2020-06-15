@@ -76,9 +76,9 @@ app.use('/', project);
 const httpServer = http.createServer(app);
 const httpsServer = https.createServer(credentials, app);
 
-httpServer.listen(process.env.HTTP_PORT, () => {
+/*httpServer.listen(process.env.HTTP_PORT, () => {
     console.log('HTTP server working on port  ' + process.env.HTTP_PORT);
-});
+});*/
 
 httpsServer.listen(process.env.HTTPS_PORT, () => {
     console.log('HTTPS server working on port ' + process.env.HTTPS_PORT);

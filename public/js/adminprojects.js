@@ -1,12 +1,11 @@
 $(function()
-{
+{var projectId = "";
     $.ajax({
         url: "/projects",
         type: 'POST',
         success: function(response,textStatus,request) {
             if (request.status==200)
-            {     
-                console.log(response.data);           
+            {                
                 for(let i = 0; i < response.data.length; i++)
                 {
                     let projectid = response.data[i].id;
@@ -31,15 +30,13 @@ $(function()
                     buttonRemove.innerHTML = "Eliminar <i class='fas fa-trash-alt'></i>";
                     $(buttonRemove).addClass("btn btn-danger");
                     buttonRemove.setAttribute("data-toggle", "modal");
-                    buttonRemove.setAttribute("data-target", "#deleteAccount");
+                    buttonRemove.setAttribute("data-target", "#deleteProject");
+                    buttonRemove.addEventListener('click', projectRemoveId);
                     
                     buttonEdit.setAttribute('id', projectid);
                     buttonEdit.addEventListener('click', projectStatus);
                     buttonEdit.innerHTML = "Navegar <i class='fas fa-atlas'></i>";
                     $(buttonEdit).addClass("btn btn-warning");
-                    
-                    //buttonRemove.addEventListener("click", getId);
-                    //buttonEdit.addEventListener("click", editUser);
                 }
             }
         },
@@ -64,8 +61,35 @@ $(function()
             },
             error: function(xhr, ajaxOptions, error)
             {
-
+                $("#notification").html('').hide().attr('class', '').addClass("alert alert-danger").attr("role","alert").html('Error. No se ha podido cargar la lista ddel proyecto.').fadeIn(1000).delay(1000).fadeOut(2000);
             }
         });
     }
 });
+
+$("#formDeleteProject").submit(function(event)
+{
+    event.preventDefault();
+    console.log(projectId);
+
+    $.ajax({
+        url:"/delete",
+        type: "DELETE",
+        data: {"projectId": projectId},
+        success: function(data, textStatus, request)
+        {
+            location.reload();
+        },
+        error: function(xhr, ajaxOptions, error)
+        {
+            $('#deleteProject').modal('hide');
+            $("#notification").html('').hide().attr('class', '').addClass("alert alert-danger").attr("role","alert").html('Error. El usuario no se puede eliminar. Compruebe si el usuario tiene proyectos.').fadeIn(1000).delay(1000).fadeOut(2000);
+        }
+    });
+});
+
+function projectRemoveId()
+{
+    projectId = $(this).attr('id');
+    console.log(projectId);
+}

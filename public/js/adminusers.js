@@ -111,11 +111,8 @@ $(function()
                 },
                 error: function(xhr,ajaxOptions,error)
                 {
-                    if (xhr.status==404)
-                    {
-                        $('#deleteAccount').modal('hide');
-                        $("#notification").html('').hide().attr('class', '').addClass("alert alert-danger").attr("role","alert").html('Error. El usuario no se puede eliminar. Compruebe si el usuario tiene proyectos.').fadeIn(1000).delay(1000).fadeOut(2000);
-                    }
+                    $('#deleteAccount').modal('hide');
+                    $("#notification").html('').hide().attr('class', '').addClass("alert alert-danger").attr("role","alert").html('Error. El usuario no se puede eliminar. Compruebe si el usuario tiene proyectos.').fadeIn(1000).delay(1000).fadeOut(2000);
                 }
             });
         }

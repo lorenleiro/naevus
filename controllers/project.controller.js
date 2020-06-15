@@ -126,10 +126,16 @@ exports.project_uploadimage = async function(req, res)
 exports.project_delete = async function(req,res)
 {
     let conn = await pool.getConnection();
-    
+    let projectId = req.body.projectId;
+
+    if(!projectId)
+    {
+        projectId = req.session.client.currentProject;
+    }
+
     try 
     {
-        let query = "DELETE FROM projects WHERE id = '"+ req.session.client.currentProject +"'";
+        let query = "DELETE FROM projects WHERE id = '"+ projectId +"'";
         let row = await conn.query(query);
         res.type('json').status(204).send({ status: "ok"});
     } catch (err) 
